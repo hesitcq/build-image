@@ -1,2 +1,2 @@
-FROM k8s.gcr.io/build-image/debian-iptables:buster-v1.6.7
+FROM k8s.gcr.io/e2e-test-images/agnhost:2.32
 MAINTAINER Q
