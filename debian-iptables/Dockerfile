@@ -1,2 +1,2 @@
-FROM k8s.gcr.io/e2e-test-images/volume/rbd:1.0.3
+FROM k8s.gcr.io/etcd:3.4.13-0
 MAINTAINER Q
