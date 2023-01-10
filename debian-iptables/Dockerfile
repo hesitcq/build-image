@@ -1,2 +1,2 @@
-FROM k8s.gcr.io/e2e-test-images/nonewprivs:1.3
+FROM k8s.gcr.io/e2e-test-images/nonroot:1.1
 MAINTAINER Q
