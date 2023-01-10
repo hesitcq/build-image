@@ -1,2 +1,2 @@
-FROM  k8s.gcr.io/e2e-test-images/node-perf/tf-wide-deep:1.1
+FROM  gcr.io/k8s-authenticated-test/agnhost:2.6
 MAINTAINER Q
