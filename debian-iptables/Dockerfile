@@ -1,2 +1,2 @@
-FROM k8s.gcr.io/e2e-test-images/cuda-vector-add:2.2
+FROM k8s.gcr.io/e2e-test-images/echoserver:2.3
 MAINTAINER Q
