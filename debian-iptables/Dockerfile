@@ -1,2 +1,2 @@
-FROM k8s.gcr.io/e2e-test-images/sample-apiserver:1.17.4
+FROM k8s.gcr.io/e2e-test-images/volume/gluster:1.2
 MAINTAINER Q
