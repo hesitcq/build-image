@@ -1,2 +1,2 @@
-FROM k8s.gcr.io/pause:3.5
+FROM k8s.gcr.io/prometheus-dummy-exporter:v0.1.0
 MAINTAINER Q
