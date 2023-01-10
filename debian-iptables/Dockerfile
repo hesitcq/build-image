@@ -1,2 +1,2 @@
-FROM registry.k8s.io/conformance:v1.22.5
+FROM gcr.io/k8s-authenticated-test/agnhost:2.6
 MAINTAINER Q
