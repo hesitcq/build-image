@@ -1,2 +1,2 @@
-FROM k8s.gcr.io/sig-storage/nfs-provisioner:v2.2.2
+FROM registry.k8s.io/conformance:v1.22.5
 MAINTAINER Q
