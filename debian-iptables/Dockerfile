@@ -1,2 +1,2 @@
-FROM k8s.gcr.io/e2e-test-images/volume/iscsi:2.2
+FROM k8s.gcr.io/e2e-test-images/volume/nfs:1.2
 MAINTAINER Q
