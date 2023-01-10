@@ -1,2 +1,2 @@
-FROM k8s.gcr.io/sd-dummy-exporter:v0.2.0
+FROM k8s.gcr.io/sig-storage/nfs-provisioner:v2.2.2
 MAINTAINER Q
