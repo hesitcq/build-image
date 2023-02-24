@@ -71,8 +71,8 @@ WORKDIR $APP_HOME
 # Copy the application & scripts
 COPY config.py requirements.txt run.py constants.py clientsdk.py restclient.py $APP_HOME/
 COPY monitoring $APP_HOME/monitoring/
-#COPY monitoring_service/backend/test $APP_HOME/test/
-#COPY monitoring_service/backend/test/resources $APP_HOME/test/resources/
+COPY monitoring_service/backend/test $APP_HOME/test/
+COPY monitoring_service/backend/test/resources $APP_HOME/test/resources/
 COPY configs/*.sh $APP_HOME/bin
 
 RUN chmod 750 $APP_HOME &&\
@@ -88,6 +88,7 @@ EXPOSE 9997
 USER $USER_NAME
 
 # Install requirements
+RUN pip install --upgrade pip setuptools wheel
 RUN pip install -r requirements.txt
 
 # Execute script & application
