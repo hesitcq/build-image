@@ -88,7 +88,7 @@ EXPOSE 9997
 USER $USER_NAME
 
 # Install requirements
-# RUN pip install --upgrade pip setuptools wheel
+RUN pip install --upgrade pip setuptools wheel
 RUN pip install -r requirements.txt
 
 # Execute script & application
