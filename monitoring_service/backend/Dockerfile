@@ -86,8 +86,8 @@ EXPOSE 9997
 USER $USER_NAME
 
 # Install requirements
-RUN pip install --upgrade pip setuptools wheel
-RUN pip install -r requirements.txt --verbose
+# RUN pip install --upgrade pip setuptools wheel
+# RUN pip install -r requirements.txt --verbose
 
 # Execute script & application
 ENTRYPOINT ["sh", "./bin/start.sh"]
