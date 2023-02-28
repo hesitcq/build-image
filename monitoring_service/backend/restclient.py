@@ -22,7 +22,7 @@ import requests
 
 HTTP_URL = "http://"
 HTTPS_URL = "https://"
-MEP_AGENT_URL = os.environ.get("MEP_AGENT", "127.0.0.1:80")
+MEP_AGENT_URL = os.environ.get("MEP_AGENT", "127.0.1.1:80")
 SSL_ENABLED = False
 ACCESS_TOKEN_ENABLED = False
 CONTENT_TYPE = "application/json"
