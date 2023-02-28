@@ -26,7 +26,7 @@ services:
       network_mode: host
       hostname: monitor-be-service
       environment:
-        - LISTEN_IP=127.0.0.1
+        - LISTEN_IP=127.0.1.1
       volumes:
         - /home/EG-LDVS/mepserver:/usr/app/ssl
 
